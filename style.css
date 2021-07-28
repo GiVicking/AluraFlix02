@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(75, 75, 75);
+    
+  }
+  
+  #aluraflix {
+    background: rgb(17, 17, 17);
+    margin: 3rem auto 0 auto;
+    border-radius: 25px;
+  }
+  .title {
+    padding: 40px;
+    font-family:fantasy;
+      font-size: 3.65rem;
+    text-align: center;
+    color: rgb(252, 11, 11);
+    text-shadow: 5px 5px 10px rgb(250, 95, 95);
+  }
+  #menu{
+    padding-top: 20px;
+  }
+  
+  #menu li { display: inline; }
+  
+  #menu li a {
+    top:10%;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  #menu li a:hover {
+      text-shadow: 
+        0 0 10px red,
+        0 0 10px red,
+        0 0 10px red,
+        0 0 10px red,
+        0 0 10px red;
+  }
+  
+  h2{
+    text-align: left;
+    color: #ffffff;
+    font-size:2rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+  
+
+  img{
+    width: 100%;
+    box-shadow: 7px 7px 7px rgb(5, 5, 5);
+    border-radius: 7.5px;
+    }
+  
+  .displayMovie {
+    display:inline-flex;
+    width: 58rem;
+    text-align: center;
+    margin-left: 7rem;
+   }
+  
+  .displayMovie img {
+    margin: 2rem 1.5rem 2rem 0rem;
+    width: 10rem;
+    height: 16rem;
+    box-shadow: 8px 8px 8px rgb(68, 68, 68);
+    border-radius: 5px;
+    transition: 350ms;
+  }
+  
+  .displayMovie img:hover {
+    transform: scale(1.055);
+  }
+  
+  .copyrigth {
+    text-align: right;
+    font-size: medium;
+    font-family: 'Secular One';
+      color:rgb(251, 255, 0);
+  }
